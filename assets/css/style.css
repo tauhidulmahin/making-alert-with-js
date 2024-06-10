@@ -1,0 +1,50 @@
+/* carousel */
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-bottom: 8px;
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+}
+
+.carousel-indicators :hover {
+    background-color: #fff;
+}
+
+/* carousel */
+
+
+/* back to top button */
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 35px;
+    bottom: 40px;
+    z-index: 996;
+    background: #FFAE00;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.back-to-top i {
+    font-size: 16px;
+    color: #fff;
+    line-height: 0;
+}
+
+.back-to-top:hover {
+    background: #B48A0C;
+    color: #fff;
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
